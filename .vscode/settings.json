@@ -1,3 +1,4 @@
 {
-    "python.pythonPath": "/workspaces/slides-workspace/.venv/bin/python3"
+    "python.pythonPath": "/workspaces/slides-workspace/.venv/bin/python3",
+    "restructuredtext.confPath": ""
 }
