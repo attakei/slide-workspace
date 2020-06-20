@@ -1,0 +1,24 @@
+// For format details, see https://aka.ms/vscode-remote/devcontainer.json or this file's README at:
+// https://github.com/microsoft/vscode-dev-containers/tree/v0.122.1/containers/python-3
+{
+	"name": "slides-workspace-dev",
+	"image": "attakei/workspace:python3",
+	// Set *default* container specific settings.json values on container create.
+	"settings": { 
+		"terminal.integrated.shell.linux": "/usr/bin/zsh",
+		"python.pythonPath": "/usr/local/bin/python",
+		"python.linting.enabled": true,
+		"python.linting.pylintEnabled": true,
+		"python.formatting.blackPath": "${workspaceFolder}/.venv/bin/black",
+		"python.linting.flake8Path": "${workspaceFolder}/.venv/bin/flake8"
+	},
+	// Add the IDs of extensions you want installed when the container is created.
+	"extensions": [
+		"ms-python.python"
+	],
+	// Use 'postCreateCommand' to run commands after the container is created.
+	"postCreateCommand": "poetry install",
+	"mounts": [
+		"source=${localEnv:HOME}/.ssh,target=/root/.ssh,type=bind,consistency=cached",
+	]
+}

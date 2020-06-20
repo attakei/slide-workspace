@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "slides-workspace"
+version = "0.1.0"
+description = "Workspace for attakei's presentations"
+authors = ["Kazuya Takei <myself@attakei.net>"]
+license = "Apache-2.0"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+sphinx = "^3.1.1"
+sphinx-revealjs = "^0.11.0"
+
+[tool.poetry.dev-dependencies]
+black = "^19.10b0"
+flake8 = "^3.8.3"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
