@@ -1,0 +1,4 @@
+{
+  "slide_title": "My slide",
+  "slide_slug": "{{ cookiecutter.slide_title.lower().replace(' ', '-') }}"
+}
