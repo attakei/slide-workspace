@@ -12,3 +12,16 @@ Includes
 * Git
 * Zsh
 * Support tool application
+
+Basic usage
+-----------
+
+#. Pull image
+#. Initialize your space
+#. Write presentation in workspace
+
+.. code-block:: bash
+
+    $ docker pull attakei/slides-worpspace
+    $ mkdir your-slide
+    $ docker run --rm -v `pwd`/your-slide:/data slide.init
