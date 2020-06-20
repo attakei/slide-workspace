@@ -1,4 +1,7 @@
 {
   "slide_title": "My slide",
-  "slide_slug": "{{ cookiecutter.slide_title.lower().replace(' ', '-') }}"
+  "slide_slug": "{{ cookiecutter.slide_title.lower().replace(' ', '-') }}",
+  "author": "Kazuya Takei",
+  "pub_date": "{% now 'local', '%Y-%m-%d' %}",
+  "location": "Talk evnet"
 }
