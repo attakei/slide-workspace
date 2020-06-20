@@ -20,3 +20,5 @@ RUN chsh -s /usr/bin/zsh
 COPY --from=package /build/dist/slides_workspace-*-py3-none-any.whl /
 RUN pip install /slides_workspace-*-py3-none-any.whl
 
+RUN mkdir /work
+WORKDIR /work

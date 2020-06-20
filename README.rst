@@ -24,4 +24,4 @@ Basic usage
 
     $ docker pull attakei/slides-worpspace
     $ mkdir your-slide
-    $ docker run --rm -v `pwd`/your-slide:/data slide.init
+    $ docker run --rm -v `pwd`:/work attakei/slides-worpspace slide.init
