@@ -1,0 +1,16 @@
+// For format details, see https://aka.ms/vscode-remote/devcontainer.json or this file's README at:
+// https://github.com/microsoft/vscode-dev-containers/tree/v0.122.1/containers/python-3
+{
+	"name": "slides-workspace",
+	"image": "attakei/slides-workspace",
+	// Set *default* container specific settings.json values on container create.
+	"settings": { 
+		"terminal.integrated.shell.linux": "/usr/bin/zsh",
+		"python.pythonPath": "/usr/local/bin/python"
+	},
+	// Add the IDs of extensions you want installed when the container is created.
+	"extensions": [
+		"lextudio.restructuredtext",
+		"ms-python.python"
+	]
+}
