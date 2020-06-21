@@ -106,7 +106,7 @@ description = "Python package for providing Mozilla's CA Bundle."
 name = "certifi"
 optional = false
 python-versions = "*"
-version = "2020.4.5.2"
+version = "2020.6.20"
 
 [[package]]
 category = "main"
@@ -420,7 +420,7 @@ description = "Sphinx extension with theme to generate Reveal.js presentation"
 name = "sphinx-revealjs"
 optional = false
 python-versions = ">=3.6,<4.0"
-version = "0.11.0"
+version = "0.12.0"
 
 [package.dependencies]
 docutils = "*"
@@ -570,7 +570,7 @@ python-versions = ">=3.5,"
 version = "1.11.1"
 
 [metadata]
-content-hash = "0b27c12b9951dfd0550603f9807d7d91571063657184eac7d3b165d83c4bbc77"
+content-hash = "d7a5088601c7153dee711c0face62df9abf5cb042e1647899a661ddcab518a98"
 python-versions = "^3.8"
 
 [metadata.files]
@@ -607,8 +607,8 @@ blockdiag = [
     {file = "blockdiag-2.0.1.tar.gz", hash = "sha256:16a69dd9f3b44c9e0869999ce82aa968586698febc86ece9ca0c902dba772397"},
 ]
 certifi = [
-    {file = "certifi-2020.4.5.2-py2.py3-none-any.whl", hash = "sha256:9cd41137dc19af6a5e03b630eefe7d1f458d964d406342dd3edf625839b944cc"},
-    {file = "certifi-2020.4.5.2.tar.gz", hash = "sha256:5ad7e9a056d25ffa5082862e36f119f7f7cec6457fa07ee2f8c339814b80c9b1"},
+    {file = "certifi-2020.6.20-py2.py3-none-any.whl", hash = "sha256:8fc0819f1f30ba15bdb34cceffb9ef04d99f420f68eb75d901e9560b8749fc41"},
+    {file = "certifi-2020.6.20.tar.gz", hash = "sha256:5930595817496dd21bb8dc35dad090f1c2cd0adfaf21204bf6732ca5d8ee34d3"},
 ]
 chardet = [
     {file = "chardet-3.0.4-py2.py3-none-any.whl", hash = "sha256:fc323ffcaeaed0e0a02bf4d117757b98aed530d9ed4531e3e15460124c106691"},
@@ -796,8 +796,8 @@ sphinx = [
     {file = "Sphinx-3.1.1.tar.gz", hash = "sha256:74fbead182a611ce1444f50218a1c5fc70b6cc547f64948f5182fb30a2a20258"},
 ]
 sphinx-revealjs = [
-    {file = "sphinx-revealjs-0.11.0.tar.gz", hash = "sha256:60bf00df910dd00ec58b95398e3c37a0494aed3b0c16ab8e03d2c6c6ed38b72f"},
-    {file = "sphinx_revealjs-0.11.0-py3-none-any.whl", hash = "sha256:6c671dd1cdc57897ce4cd2b5df23179ca3733cdc28382bef01878ea561ad4c4c"},
+    {file = "sphinx-revealjs-0.12.0.tar.gz", hash = "sha256:58d4f5ae78fd679c5847e95ca389012c065156d9615a6e3bd6db035a81ae4d5e"},
+    {file = "sphinx_revealjs-0.12.0-py3-none-any.whl", hash = "sha256:cccceb248e286e158aea5ccce1c2e5112cbc6cc864cbbfc06cfdf6affc002b53"},
 ]
 sphinxcontrib-applehelp = [
     {file = "sphinxcontrib-applehelp-1.0.2.tar.gz", hash = "sha256:a072735ec80e7675e3f432fcae8610ecf509c5f1869d17e2eecff44389cdbc58"},
